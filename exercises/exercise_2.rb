@@ -12,8 +12,3 @@ puts "Number of stores: #{Store.count}"
 
 @store1.update(name: "New Store Name")
 
-@store3 = Store.find_by(id: 2)
-
-@store3.destroy
-
-puts "Number of stores after deletion: #{Store.count}"
